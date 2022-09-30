@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    background-color: rgba(232, 231, 253, 0.719);
+}
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 150px;
+}
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    min-height: 150px;
+    background-color: rgb(215, 212, 248);
+}
+.footer .box_header {
+    color: #000000c5;
+    margin: 40px;
+}
+div ul li a:hover{
+    color: white;
+    background: rgb(21, 43, 240);
+    text-decoration: none;
+}
+div ul li a{
+    text-decoration: none;
+}
